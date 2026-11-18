@@ -1,0 +1,15 @@
+test_calibration_uses_expected_order_statistic (test_inspector.InspectorTests.test_calibration_uses_expected_order_statistic) ... ok
+test_defect_scores_above_normal (test_inspector.InspectorTests.test_defect_scores_above_normal) ... ok
+test_infeasible_calibration_alpha_rejected (test_inspector.InspectorTests.test_infeasible_calibration_alpha_rejected) ... ok
+test_invalid_rgb_and_configuration_rejected (test_inspector.InspectorTests.test_invalid_rgb_and_configuration_rejected) ... ok
+test_localization_has_signal_in_annotated_region (test_inspector.InspectorTests.test_localization_has_signal_in_annotated_region) ... ok
+test_manifest_duplicate_across_splits_rejected (test_inspector.InspectorTests.test_manifest_duplicate_across_splits_rejected) ... ok
+test_metrics_separate_false_alarms_and_recall (test_inspector.InspectorTests.test_metrics_separate_false_alarms_and_recall) ... ok
+test_percentile_normalization_reduces_affine_brightness_difference (test_inspector.InspectorTests.test_percentile_normalization_reduces_affine_brightness_difference) ... ok
+test_serialization_preserves_predictions (test_inspector.InspectorTests.test_serialization_preserves_predictions) ... ok
+test_train_calibration_leakage_rejected (test_inspector.InspectorTests.test_train_calibration_leakage_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 7.470s
+
+OK

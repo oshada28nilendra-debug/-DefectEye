@@ -1,0 +1,10 @@
+{
+  "kind": "user_product_images",
+  "description": "Paths are relative to this manifest, or absolute local paths. All images must be unique and all splits must be disjoint.",
+  "train": ["reference/good_01.png", "reference/good_02.png"],
+  "calibration": ["calibration/good_01.png", "calibration/good_02.png"],
+  "test": [
+    {"image": "test/good.png", "label": 0, "mask": null, "group": "part-100"},
+    {"image": "test/scratch.png", "label": 1, "mask": "masks/scratch.png", "group": "part-101"}
+  ]
+}

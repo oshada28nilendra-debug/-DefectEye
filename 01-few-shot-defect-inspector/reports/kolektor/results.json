@@ -1,0 +1,115 @@
+{
+  "dataset_kind": "real_kolektor_custom_group_split",
+  "provenance": "Real KolektorSDD images and human defect masks; custom physical-part-disjoint split, not official benchmark protocol",
+  "reference_count": 4,
+  "calibration_count": 20,
+  "test_count": 119,
+  "test_normal": 103,
+  "test_defect": 16,
+  "seed": 17,
+  "size": 224,
+  "pixel_metric_resolution": [
+    224,
+    224
+  ],
+  "notes": [
+    "Independent ResNet18 baseline, not a reproduction of cited papers",
+    "Global brightness multiplication with clipping; not physical relighting",
+    "Reference/calibration/test image content checked for overlap",
+    "Clean calibration threshold is reused unchanged for each lighting factor",
+    "Pixel scores are bilinearly resized; masks use nearest-neighbor",
+    "No test-time recalibration or label-driven model selection"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu"
+  },
+  "results": [
+    {
+      "normalization": "none",
+      "brightness": 1.0,
+      "threshold": 0.33004244044423103,
+      "fit_and_calibration_seconds": 4.661204944000019,
+      "median_inference_seconds": 0.04975481900004297,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.814094068246482,
+      "pixel_average_precision": 0.02796001693728342,
+      "image_auroc": 0.7870145631067962,
+      "image_average_precision": 0.34929929021950906,
+      "normal_false_alarm_rate": 0.08737864077669903,
+      "defect_recall": 0.3125
+    },
+    {
+      "normalization": "none",
+      "brightness": 0.65,
+      "threshold": 0.33004244044423103,
+      "fit_and_calibration_seconds": 4.661204944000019,
+      "median_inference_seconds": 0.052295028000003185,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.8084387503393183,
+      "pixel_average_precision": 0.009885030079895113,
+      "image_auroc": 0.7214805825242718,
+      "image_average_precision": 0.25042219282608424,
+      "normal_false_alarm_rate": 0.3786407766990291,
+      "defect_recall": 0.6875
+    },
+    {
+      "normalization": "none",
+      "brightness": 1.35,
+      "threshold": 0.33004244044423103,
+      "fit_and_calibration_seconds": 4.661204944000019,
+      "median_inference_seconds": 0.04704158499998812,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.62060092256678,
+      "pixel_average_precision": 0.0012429237948696295,
+      "image_auroc": 0.6298543689320388,
+      "image_average_precision": 0.18777968726304084,
+      "normal_false_alarm_rate": 0.9902912621359223,
+      "defect_recall": 1.0
+    },
+    {
+      "normalization": "percentile",
+      "brightness": 1.0,
+      "threshold": 0.36879410967230797,
+      "fit_and_calibration_seconds": 1.902942932999963,
+      "median_inference_seconds": 0.05570674099999451,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.7594303332440481,
+      "pixel_average_precision": 0.0028033707409861604,
+      "image_auroc": 0.5273058252427185,
+      "image_average_precision": 0.16429998856241282,
+      "normal_false_alarm_rate": 0.08737864077669903,
+      "defect_recall": 0.125
+    },
+    {
+      "normalization": "percentile",
+      "brightness": 0.65,
+      "threshold": 0.36879410967230797,
+      "fit_and_calibration_seconds": 1.902942932999963,
+      "median_inference_seconds": 0.05464625900003739,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.7592893231247633,
+      "pixel_average_precision": 0.0028000912310372867,
+      "image_auroc": 0.5273058252427184,
+      "image_average_precision": 0.16431372870311187,
+      "normal_false_alarm_rate": 0.08737864077669903,
+      "defect_recall": 0.125
+    },
+    {
+      "normalization": "percentile",
+      "brightness": 1.35,
+      "threshold": 0.36879410967230797,
+      "fit_and_calibration_seconds": 1.902942932999963,
+      "median_inference_seconds": 0.057830463999948734,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.5986643890988348,
+      "pixel_average_precision": 0.0009192967311597491,
+      "image_auroc": 0.5849514563106797,
+      "image_average_precision": 0.19105462232788817,
+      "normal_false_alarm_rate": 0.9611650485436893,
+      "defect_recall": 1.0
+    }
+  ]
+}

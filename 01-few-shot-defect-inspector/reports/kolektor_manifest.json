@@ -1,0 +1,810 @@
+{
+  "kind": "real_kolektor_custom_group_split",
+  "seed": 17,
+  "description": "Real KolektorSDD images and human defect masks; custom physical-part-disjoint split, not official benchmark protocol",
+  "source": "https://www2.vicos.si/resources/kolektorsdd/",
+  "archive_sha256": "65dc621693418585de9c4467d1340ea7958a6181816f0dc2883a1e8b61f9d4dc",
+  "license": "CC BY-NC-SA 4.0; dataset not redistributed in delivery",
+  "groups": {
+    "test": [
+      "kos26",
+      "kos23",
+      "kos49",
+      "kos43",
+      "kos27",
+      "kos15",
+      "kos21",
+      "kos41",
+      "kos29",
+      "kos14",
+      "kos33",
+      "kos08",
+      "kos39",
+      "kos03",
+      "kos06"
+    ],
+    "calibration": [
+      "kos20",
+      "kos17",
+      "kos13",
+      "kos18",
+      "kos48",
+      "kos24",
+      "kos28",
+      "kos36",
+      "kos44",
+      "kos07",
+      "kos04",
+      "kos50"
+    ],
+    "train": [
+      "kos10",
+      "kos31",
+      "kos46",
+      "kos25",
+      "kos45",
+      "kos37",
+      "kos38",
+      "kos05",
+      "kos30",
+      "kos42",
+      "kos47",
+      "kos32",
+      "kos16",
+      "kos34",
+      "kos09",
+      "kos40",
+      "kos02",
+      "kos01",
+      "kos35",
+      "kos11",
+      "kos19",
+      "kos12",
+      "kos22"
+    ]
+  },
+  "train": [
+    "train/kos25_Part6.jpg",
+    "train/kos02_Part3.jpg",
+    "train/kos02_Part7.jpg",
+    "train/kos40_Part2.jpg"
+  ],
+  "calibration": [
+    "calibration/kos20_Part3.jpg",
+    "calibration/kos24_Part2.jpg",
+    "calibration/kos48_Part7.jpg",
+    "calibration/kos44_Part5.jpg",
+    "calibration/kos50_Part3.jpg",
+    "calibration/kos17_Part6.jpg",
+    "calibration/kos44_Part7.jpg",
+    "calibration/kos36_Part7.jpg",
+    "calibration/kos17_Part3.jpg",
+    "calibration/kos24_Part6.jpg",
+    "calibration/kos18_Part5.jpg",
+    "calibration/kos50_Part5.jpg",
+    "calibration/kos17_Part4.jpg",
+    "calibration/kos28_Part6.jpg",
+    "calibration/kos13_Part1.jpg",
+    "calibration/kos20_Part0.jpg",
+    "calibration/kos17_Part1.jpg",
+    "calibration/kos18_Part4.jpg",
+    "calibration/kos36_Part1.jpg",
+    "calibration/kos13_Part6.jpg"
+  ],
+  "test": [
+    {
+      "image": "test/kos26_Part0.jpg",
+      "mask": "test/kos26_Part0_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part1.jpg",
+      "mask": "test/kos26_Part1_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part2.jpg",
+      "mask": "test/kos26_Part2_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part3.jpg",
+      "mask": "test/kos26_Part3_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part4.jpg",
+      "mask": "test/kos26_Part4_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part5.jpg",
+      "mask": "test/kos26_Part5_mask.png",
+      "label": 1,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part6.jpg",
+      "mask": "test/kos26_Part6_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos26_Part7.jpg",
+      "mask": "test/kos26_Part7_mask.png",
+      "label": 0,
+      "group": "kos26"
+    },
+    {
+      "image": "test/kos23_Part0.jpg",
+      "mask": "test/kos23_Part0_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part1.jpg",
+      "mask": "test/kos23_Part1_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part2.jpg",
+      "mask": "test/kos23_Part2_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part3.jpg",
+      "mask": "test/kos23_Part3_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part4.jpg",
+      "mask": "test/kos23_Part4_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part5.jpg",
+      "mask": "test/kos23_Part5_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part6.jpg",
+      "mask": "test/kos23_Part6_mask.png",
+      "label": 1,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos23_Part7.jpg",
+      "mask": "test/kos23_Part7_mask.png",
+      "label": 0,
+      "group": "kos23"
+    },
+    {
+      "image": "test/kos49_Part0.jpg",
+      "mask": "test/kos49_Part0_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part1.jpg",
+      "mask": "test/kos49_Part1_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part2.jpg",
+      "mask": "test/kos49_Part2_mask.png",
+      "label": 1,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part3.jpg",
+      "mask": "test/kos49_Part3_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part4.jpg",
+      "mask": "test/kos49_Part4_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part5.jpg",
+      "mask": "test/kos49_Part5_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part6.jpg",
+      "mask": "test/kos49_Part6_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos49_Part7.jpg",
+      "mask": "test/kos49_Part7_mask.png",
+      "label": 0,
+      "group": "kos49"
+    },
+    {
+      "image": "test/kos43_Part0.jpg",
+      "mask": "test/kos43_Part0_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part1.jpg",
+      "mask": "test/kos43_Part1_mask.png",
+      "label": 1,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part2.jpg",
+      "mask": "test/kos43_Part2_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part3.jpg",
+      "mask": "test/kos43_Part3_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part4.jpg",
+      "mask": "test/kos43_Part4_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part5.jpg",
+      "mask": "test/kos43_Part5_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part6.jpg",
+      "mask": "test/kos43_Part6_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos43_Part7.jpg",
+      "mask": "test/kos43_Part7_mask.png",
+      "label": 0,
+      "group": "kos43"
+    },
+    {
+      "image": "test/kos27_Part0.jpg",
+      "mask": "test/kos27_Part0_mask.png",
+      "label": 1,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part1.jpg",
+      "mask": "test/kos27_Part1_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part2.jpg",
+      "mask": "test/kos27_Part2_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part3.jpg",
+      "mask": "test/kos27_Part3_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part4.jpg",
+      "mask": "test/kos27_Part4_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part5.jpg",
+      "mask": "test/kos27_Part5_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part6.jpg",
+      "mask": "test/kos27_Part6_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos27_Part7.jpg",
+      "mask": "test/kos27_Part7_mask.png",
+      "label": 0,
+      "group": "kos27"
+    },
+    {
+      "image": "test/kos15_Part0.jpg",
+      "mask": "test/kos15_Part0_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part1.jpg",
+      "mask": "test/kos15_Part1_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part2.jpg",
+      "mask": "test/kos15_Part2_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part3.jpg",
+      "mask": "test/kos15_Part3_mask.png",
+      "label": 1,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part4.jpg",
+      "mask": "test/kos15_Part4_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part5.jpg",
+      "mask": "test/kos15_Part5_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part6.jpg",
+      "mask": "test/kos15_Part6_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos15_Part7.jpg",
+      "mask": "test/kos15_Part7_mask.png",
+      "label": 0,
+      "group": "kos15"
+    },
+    {
+      "image": "test/kos21_Part0.jpg",
+      "mask": "test/kos21_Part0_mask.png",
+      "label": 0,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos21_Part1.jpg",
+      "mask": "test/kos21_Part1_mask.png",
+      "label": 0,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos21_Part2.jpg",
+      "mask": "test/kos21_Part2_mask.png",
+      "label": 0,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos21_Part3.jpg",
+      "mask": "test/kos21_Part3_mask.png",
+      "label": 0,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos21_Part4.jpg",
+      "mask": "test/kos21_Part4_mask.png",
+      "label": 0,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos21_Part5.jpg",
+      "mask": "test/kos21_Part5_mask.png",
+      "label": 1,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos21_Part6.jpg",
+      "mask": "test/kos21_Part6_mask.png",
+      "label": 0,
+      "group": "kos21"
+    },
+    {
+      "image": "test/kos41_Part0.jpg",
+      "mask": "test/kos41_Part0_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part1.jpg",
+      "mask": "test/kos41_Part1_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part2.jpg",
+      "mask": "test/kos41_Part2_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part3.jpg",
+      "mask": "test/kos41_Part3_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part4.jpg",
+      "mask": "test/kos41_Part4_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part5.jpg",
+      "mask": "test/kos41_Part5_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part6.jpg",
+      "mask": "test/kos41_Part6_mask.png",
+      "label": 0,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos41_Part7.jpg",
+      "mask": "test/kos41_Part7_mask.png",
+      "label": 1,
+      "group": "kos41"
+    },
+    {
+      "image": "test/kos29_Part0.jpg",
+      "mask": "test/kos29_Part0_mask.png",
+      "label": 1,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part1.jpg",
+      "mask": "test/kos29_Part1_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part2.jpg",
+      "mask": "test/kos29_Part2_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part3.jpg",
+      "mask": "test/kos29_Part3_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part4.jpg",
+      "mask": "test/kos29_Part4_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part5.jpg",
+      "mask": "test/kos29_Part5_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part6.jpg",
+      "mask": "test/kos29_Part6_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos29_Part7.jpg",
+      "mask": "test/kos29_Part7_mask.png",
+      "label": 0,
+      "group": "kos29"
+    },
+    {
+      "image": "test/kos14_Part0.jpg",
+      "mask": "test/kos14_Part0_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part1.jpg",
+      "mask": "test/kos14_Part1_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part2.jpg",
+      "mask": "test/kos14_Part2_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part3.jpg",
+      "mask": "test/kos14_Part3_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part4.jpg",
+      "mask": "test/kos14_Part4_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part5.jpg",
+      "mask": "test/kos14_Part5_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part6.jpg",
+      "mask": "test/kos14_Part6_mask.png",
+      "label": 0,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos14_Part7.jpg",
+      "mask": "test/kos14_Part7_mask.png",
+      "label": 1,
+      "group": "kos14"
+    },
+    {
+      "image": "test/kos33_Part0.jpg",
+      "mask": "test/kos33_Part0_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part1.jpg",
+      "mask": "test/kos33_Part1_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part2.jpg",
+      "mask": "test/kos33_Part2_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part3.jpg",
+      "mask": "test/kos33_Part3_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part4.jpg",
+      "mask": "test/kos33_Part4_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part5.jpg",
+      "mask": "test/kos33_Part5_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part6.jpg",
+      "mask": "test/kos33_Part6_mask.png",
+      "label": 1,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos33_Part7.jpg",
+      "mask": "test/kos33_Part7_mask.png",
+      "label": 0,
+      "group": "kos33"
+    },
+    {
+      "image": "test/kos08_Part0.jpg",
+      "mask": "test/kos08_Part0_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part1.jpg",
+      "mask": "test/kos08_Part1_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part2.jpg",
+      "mask": "test/kos08_Part2_mask.png",
+      "label": 1,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part3.jpg",
+      "mask": "test/kos08_Part3_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part4.jpg",
+      "mask": "test/kos08_Part4_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part5.jpg",
+      "mask": "test/kos08_Part5_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part6.jpg",
+      "mask": "test/kos08_Part6_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos08_Part7.jpg",
+      "mask": "test/kos08_Part7_mask.png",
+      "label": 0,
+      "group": "kos08"
+    },
+    {
+      "image": "test/kos39_Part0.jpg",
+      "mask": "test/kos39_Part0_mask.png",
+      "label": 0,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part1.jpg",
+      "mask": "test/kos39_Part1_mask.png",
+      "label": 0,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part2.jpg",
+      "mask": "test/kos39_Part2_mask.png",
+      "label": 0,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part3.jpg",
+      "mask": "test/kos39_Part3_mask.png",
+      "label": 0,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part4.jpg",
+      "mask": "test/kos39_Part4_mask.png",
+      "label": 0,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part5.jpg",
+      "mask": "test/kos39_Part5_mask.png",
+      "label": 0,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part6.jpg",
+      "mask": "test/kos39_Part6_mask.png",
+      "label": 1,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos39_Part7.jpg",
+      "mask": "test/kos39_Part7_mask.png",
+      "label": 1,
+      "group": "kos39"
+    },
+    {
+      "image": "test/kos03_Part0.jpg",
+      "mask": "test/kos03_Part0_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part1.jpg",
+      "mask": "test/kos03_Part1_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part2.jpg",
+      "mask": "test/kos03_Part2_mask.png",
+      "label": 1,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part3.jpg",
+      "mask": "test/kos03_Part3_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part4.jpg",
+      "mask": "test/kos03_Part4_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part5.jpg",
+      "mask": "test/kos03_Part5_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part6.jpg",
+      "mask": "test/kos03_Part6_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos03_Part7.jpg",
+      "mask": "test/kos03_Part7_mask.png",
+      "label": 0,
+      "group": "kos03"
+    },
+    {
+      "image": "test/kos06_Part0.jpg",
+      "mask": "test/kos06_Part0_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part1.jpg",
+      "mask": "test/kos06_Part1_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part2.jpg",
+      "mask": "test/kos06_Part2_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part3.jpg",
+      "mask": "test/kos06_Part3_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part4.jpg",
+      "mask": "test/kos06_Part4_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part5.jpg",
+      "mask": "test/kos06_Part5_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part6.jpg",
+      "mask": "test/kos06_Part6_mask.png",
+      "label": 0,
+      "group": "kos06"
+    },
+    {
+      "image": "test/kos06_Part7.jpg",
+      "mask": "test/kos06_Part7_mask.png",
+      "label": 1,
+      "group": "kos06"
+    }
+  ]
+}

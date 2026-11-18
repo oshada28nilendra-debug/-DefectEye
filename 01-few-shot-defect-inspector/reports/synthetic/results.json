@@ -1,0 +1,115 @@
+{
+  "dataset_kind": "synthetic_smoke_test",
+  "provenance": "Procedural textured panels and inserted scratches/blobs; not industrial benchmark data",
+  "reference_count": 4,
+  "calibration_count": 12,
+  "test_count": 32,
+  "test_normal": 16,
+  "test_defect": 16,
+  "seed": 17,
+  "size": 224,
+  "pixel_metric_resolution": [
+    224,
+    224
+  ],
+  "notes": [
+    "Independent ResNet18 baseline, not a reproduction of cited papers",
+    "Global brightness multiplication with clipping; not physical relighting",
+    "Reference/calibration/test image content checked for overlap",
+    "Clean calibration threshold is reused unchanged for each lighting factor",
+    "Pixel scores are bilinearly resized; masks use nearest-neighbor",
+    "No test-time recalibration or label-driven model selection"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu"
+  },
+  "results": [
+    {
+      "normalization": "none",
+      "brightness": 1.0,
+      "threshold": 0.10379552002996206,
+      "fit_and_calibration_seconds": 3.947635472999991,
+      "median_inference_seconds": 0.04487459900002477,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.9994258966215689,
+      "pixel_average_precision": 0.8953650578481414,
+      "image_auroc": 1.0,
+      "image_average_precision": 1.0,
+      "normal_false_alarm_rate": 0.0,
+      "defect_recall": 1.0
+    },
+    {
+      "normalization": "none",
+      "brightness": 0.65,
+      "threshold": 0.10379552002996206,
+      "fit_and_calibration_seconds": 3.947635472999991,
+      "median_inference_seconds": 0.0464873745000034,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.9993374314258514,
+      "pixel_average_precision": 0.8791914593321036,
+      "image_auroc": 1.0,
+      "image_average_precision": 1.0,
+      "normal_false_alarm_rate": 1.0,
+      "defect_recall": 1.0
+    },
+    {
+      "normalization": "none",
+      "brightness": 1.35,
+      "threshold": 0.10379552002996206,
+      "fit_and_calibration_seconds": 3.947635472999991,
+      "median_inference_seconds": 0.046607439499979364,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.9990783942491579,
+      "pixel_average_precision": 0.8362008202657466,
+      "image_auroc": 1.0,
+      "image_average_precision": 1.0,
+      "normal_false_alarm_rate": 1.0,
+      "defect_recall": 1.0
+    },
+    {
+      "normalization": "percentile",
+      "brightness": 1.0,
+      "threshold": 0.15321588702499866,
+      "fit_and_calibration_seconds": 1.077831563000018,
+      "median_inference_seconds": 0.043589831000019785,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.9987737667093037,
+      "pixel_average_precision": 0.7726839381771531,
+      "image_auroc": 1.0,
+      "image_average_precision": 1.0,
+      "normal_false_alarm_rate": 0.0,
+      "defect_recall": 1.0
+    },
+    {
+      "normalization": "percentile",
+      "brightness": 0.65,
+      "threshold": 0.15321588702499866,
+      "fit_and_calibration_seconds": 1.077831563000018,
+      "median_inference_seconds": 0.054102773500005696,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.9987737667093037,
+      "pixel_average_precision": 0.7726839381771531,
+      "image_auroc": 1.0,
+      "image_average_precision": 1.0,
+      "normal_false_alarm_rate": 0.0,
+      "defect_recall": 1.0
+    },
+    {
+      "normalization": "percentile",
+      "brightness": 1.35,
+      "threshold": 0.15321588702499866,
+      "fit_and_calibration_seconds": 1.077831563000018,
+      "median_inference_seconds": 0.045504985999968994,
+      "memory_patches": 3136,
+      "pixel_auroc": 0.9987737667093037,
+      "pixel_average_precision": 0.7726839381771531,
+      "image_auroc": 1.0,
+      "image_average_precision": 1.0,
+      "normal_false_alarm_rate": 0.0,
+      "defect_recall": 1.0
+    }
+  ]
+}
